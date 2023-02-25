@@ -1,9 +1,6 @@
 {
   "name": "currencyconverter",
   "version": "0.0.0",
-  "repository": {
-    "url": "git+https://github.com:lifewithoutalcohol/Currency-Exchange-Rate.git"
-  },
   "private": true,
   "scripts": {
     "prenpm": "rimraf dist",
@@ -14,9 +11,7 @@
     "build:vite": "vite build",
     "preview": "vite preview",
     "build:webpack": "webpack build",
-    "serve": "webpack serve",
-    "predeploy": "npm run build:webpack",
-    "deploy": "gh-pages -d dist"
+    "serve": "webpack serve"
   },
   "dependencies": {
     "vue": "^3.2.47"
