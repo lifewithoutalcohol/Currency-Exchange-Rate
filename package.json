@@ -2,7 +2,7 @@
   "name": "currencyconverter",
   "version": "0.0.0",
   "repository": {
-    "url": "git+https://github.com:lifewithoutalcohol/Exchange-Rate.git"
+    "url": "git+https://github.com:lifewithoutalcohol/Currency-Exchange-Rate.git"
   },
   "private": true,
   "scripts": {
