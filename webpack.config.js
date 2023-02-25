@@ -1,10 +1,7 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 const { VueLoaderPlugin } = require('vue-loader')
-// const webpack = require('webpack');
 const { serve } = require('webpack-plugin-serve')
-// import webpackConfig from './webpack.config.js';
-
 
 module.exports = {
     mode: 'development',
@@ -56,8 +53,4 @@ module.exports = {
         },
         extensions: ['*', '.js', '.vue', '.json']
     },
-    // devServer: {
-    //     hot: true,
-    //     open: true,
-    // },
 }
